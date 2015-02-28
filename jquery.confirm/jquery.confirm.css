@@ -1,0 +1,115 @@
+#confirmOverlay{
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	background:url('ie.png');
+	background: -moz-linear-gradient(rgba(11,11,11,0.1), rgba(11,11,11,0.6)) repeat-x rgba(11,11,11,0.2);
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(rgba(11,11,11,0.1)), to(rgba(11,11,11,0.6))) repeat-x rgba(11,11,11,0.2);
+	z-index:100000;
+}
+
+#confirmBox{
+	background:url('body_bg.jpg') repeat-x left bottom #e5e5e5;
+	width:460px;
+	position:fixed;
+	left:50%;
+	top:50%;
+	margin:-130px 0 0 -230px;
+	border: 1px solid rgba(33, 33, 33, 0.6);
+	
+	-moz-box-shadow: 0 0 2px rgba(255, 255, 255, 0.6) inset;
+	-webkit-box-shadow: 0 0 2px rgba(255, 255, 255, 0.6) inset;
+	box-shadow: 0 0 2px rgba(255, 255, 255, 0.6) inset;
+}
+
+#confirmBox h1,
+#confirmBox p{
+	font:26px/1 'Cuprum','Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+	background:url('header_bg.jpg') repeat-x left bottom #f5f5f5;
+	padding: 18px 25px;
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.6);
+	color:#666;
+}
+
+#confirmBox h1{
+	letter-spacing:0.3px;
+	color:#888;
+}
+
+#confirmBox p{
+	background:none;
+	font-size:16px;
+	line-height:1.4;
+	padding-top: 35px;
+}
+
+#confirmButtons{
+	padding:15px 0 25px;
+	text-align:center;
+}
+
+#confirmButtons .btn{
+	background: url(../img/buttongray_bg.png) repeat-x #EBEBEB;
+	border: 1px solid #C4C4C4;
+	border-radius: 3px;
+	box-shadow: 0 1px 3px #DDD;
+	color: #757575;
+	display: inline-block;
+	font-family: "Tahoma", sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	height: 31px;
+	line-height: 31px;
+	margin-right: 4px;
+	padding: 0 14px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 white;
+	text-transform: uppercase;
+	zoom: 1;
+}
+
+
+#confirmButtons .bLue{
+
+	background: url(../img/buttonblue_bg.png) repeat-x #477DAE;
+	border: 1px solid #477DAE;
+	border-radius: 3px;
+	box-shadow: 0 1px 3px #DDD;
+	color: white;
+	display: inline-block;
+	font-family: "Tahoma", sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	height: 31px;
+	line-height: 31px;
+	margin-right: 4px;
+	padding: 0 30px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #104266;
+	text-transform: uppercase;
+	zoom: 1;
+}
+
+#confirmButtons .gray{
+	background: url(../img/buttongray_bg.png) repeat-x #EBEBEB;
+	border: 1px solid #C4C4C4;
+	border-radius: 3px;
+	box-shadow: 0 1px 3px #DDD;
+	color: #757575;
+	display: inline-block;
+	font-family: "Tahoma", sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	height: 31px;
+	line-height: 31px;
+	margin-right: 4px;
+	padding: 0 30px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 white;
+	text-transform: uppercase;
+	zoom: 1;
+}
+
+#confirmBox .btn:last-child{	margin-right:0;}
